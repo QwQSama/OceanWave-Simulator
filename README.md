@@ -20,23 +20,25 @@ Ocean waves are complex natural phenomena influenced by various factors such as 
 
 We employed the **Lagrangian method** to model the surface of the ocean. In this approach, the motion of individual points on the ocean surface is calculated based on sinusoidal wave equations. The surface is treated as a graphical primitive, and particles are set in circular motion around their rest positions, creating the wave-like movement.
 
-### Key Equations:
+## Key Equations:
 
 - For the X and Z coordinates of each point:
-  \[
-  x = x_0 + r * \sin(\kappa x_0 - \omega t)
-  \]
-  \[
-  z = z_0 - r * \cos(\kappa x_0 - \omega t)
-  \]
   
+  \[
+  x = x_0 + r \cdot \sin(\kappa x_0 - \omega t)
+  \]
+  \[
+  z = z_0 - r \cdot \cos(\kappa x_0 - \omega t)
+  \]
+
 Where:
-- \( r \) is the wave amplitude
-- \( \kappa \) is the wavenumber
-- \( \omega \) is the angular frequency
-- \( t \) is time
+- \(r\) is the wave amplitude
+- \(\kappa\) is the wavenumber
+- \(\omega\) is the angular frequency
+- \(t\) is time
 
 These equations generate the trochoidal shape of waves over time, creating a visually appealing simulation of ocean surface dynamics.
+
 
 ## Implementation
 
