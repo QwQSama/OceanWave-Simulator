@@ -55,9 +55,6 @@ Here is a GIF of the generated ocean wave simulation:
 
 The generated waves realistically depict the motion of the ocean surface, with varying wave heights and movements that closely resemble natural ocean behavior.
 
-### 3D Visual:
-
-![3D Wave Plot](path_to_your_image.png)
 
 ## Future Work
 
