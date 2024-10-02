@@ -22,20 +22,19 @@ We employed the **Lagrangian method** to model the surface of the ocean. In this
 
 ## Key Equations:
 
-- For the X and Z coordinates of each point:
-  
-  \[
-  x = x_0 + r \cdot \sin(\kappa x_0 - \omega t)
-  \]
-  \[
-  z = z_0 - r \cdot \cos(\kappa x_0 - \omega t)
-  \]
+For the X and Z coordinates of each point:
+
+- X-coordinate:  
+  `x = x_0 + r * sin(k * x_0 - ω * t)`
+
+- Z-coordinate:  
+  `z = z_0 - r * cos(k * x_0 - ω * t)`
 
 Where:
-- \(r\) is the wave amplitude
-- \(\kappa\) is the wavenumber
-- \(\omega\) is the angular frequency
-- \(t\) is time
+- `r` is the wave amplitude
+- `k` is the wavenumber
+- `ω` is the angular frequency
+- `t` is time
 
 These equations generate the trochoidal shape of waves over time, creating a visually appealing simulation of ocean surface dynamics.
 
